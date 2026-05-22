@@ -4,6 +4,8 @@
   "description": "este es mi proyecto de una api",
   "main": "index.js",
   "scripts": {
+    "dev": "nodemon app.js",
+    "start":"node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -11,5 +13,14 @@
   "license": "ISC",
   "dependencies": {
     "express": "^5.2.1"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Itzel24194/api_nodejs_93.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Itzel24194/api_nodejs_93/issues"
+  },
+  "homepage": "https://github.com/Itzel24194/api_nodejs_93#readme"
 }
