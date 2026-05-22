@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon app.js",
-    "start":"node app.js",
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -14,7 +14,9 @@
   "dependencies": {
     "express": "^5.2.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Itzel24194/api_nodejs_93.git"
