@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "este es mi proyecto de una api",
   "main": "index.js",
+  "Type": "module",
   "scripts": {
     "dev": "nodemon app.js",
     "start": "node app.js",
@@ -12,6 +13,7 @@
   "author": "Itzel Nonato Estevez",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^17.4.2",
     "express": "^5.2.1"
   },
   "devDependencies": {
